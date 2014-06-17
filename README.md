@@ -10,7 +10,7 @@ Create a Dockerfile in your Rust application directory with the following conten
           
     WORKDIR /src/app
     ADD . /src/app
-    RUN rustc exe main.rs
+    RUN rustc main.rs
                           
     CMD []
     ENTRYPOINT ["/src/app/main"]
